@@ -1,0 +1,16 @@
+body{
+    background-color: #9dd7e6;
+  }
+  
+  .logoalura{
+  margin: 40px;
+  }
+  
+  main{
+    display: flex;
+    margin-left: 40px;
+  }
+  .encript_des{
+    margin-left: 40px;
+  }
+  

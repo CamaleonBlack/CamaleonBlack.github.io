@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Encriptador</title>
+
+            <link rel="stylesheet" href="PruebagitStyle.css"/>
+    </head>
+        
+    <body>
+        <main>
+            <section class="logoalura">
+                <img src="PrefabsGit/VectorLogoFigma.png" alt="Logoalura">
+            </section>
+
+            <section>
+                <input type="text" name="ingText" id="ingText" cols="40" rows="6" placeholder="Escribe tu mensaje"> </input>
+                
+                <div class="buttons">
+                    <button onclick="encriptarBtn()">Encriptar</button>
+                    <button onclick="DesencriptarBtn()">Desencriptar</button>
+                </div>
+            </section>
+
+            <section class="copybutton">
+                <textarea name="obtText" class="answer" cols="18" rows="8" placeholder="Aqui tu respuesta <3"></textarea>
+                <button class="copiar" onclick="CopyFn()">Copy</button>
+            </section>
+        </main>
+    </body>
+    <script src="PruebaGitScript.js"></script>
+</html>
+
