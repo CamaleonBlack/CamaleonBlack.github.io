@@ -7,10 +7,23 @@ body{
   }
   
   main{
-    display: flex;
     margin-left: 40px;
   }
-  .encript_des{
-    margin-left: 40px;
+
+  .TextAreas{
+    display: inline-flex;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-left: 30%;
   }
-  
+
+  #ingText{
+    padding: 12px;
+    font-size: 15px;
+  }
+
+  .answer{
+    padding: 12px;
+    margin-left: 70px;
+    font-size: 15px;
+  }
